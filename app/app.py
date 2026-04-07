@@ -64,9 +64,9 @@ def predict(text):
 
 with gr.Blocks(title='Mental Health Monitor', theme=gr.themes.Soft()) as demo:
 
-    gr.Markdown('## 🧠 Mental Health Monitoring System')
+    gr.Markdown('## Mental Health Monitoring System')
     gr.Markdown('Analyzes social media text for signs of mental distress.')
-    gr.Markdown('**⚠️ Research tool only. Not a clinical diagnostic system.**')
+    
 
     with gr.Row():
         with gr.Column():
