@@ -66,7 +66,7 @@ with gr.Blocks(title='Mental Health Monitor', theme=gr.themes.Soft()) as demo:
 
     gr.Markdown('## Mental Health Monitoring System')
     gr.Markdown('Analyzes social media text for signs of mental distress.')
-    
+     
 
     with gr.Row():
         with gr.Column():
